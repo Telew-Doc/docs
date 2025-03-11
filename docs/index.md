@@ -5,12 +5,13 @@
 - [X] Deploy to GitHub Pages
 - [X] Custom page order
 - [ ] DSL Dev Guide:
+    - [X] Application
     - [ ] General workflow section
     - [ ] Finish data structures
     - [ ] Layouts
     - [ ] Language syntax
     - [ ] Auto-generate markdown for all definitions & fill some with comments
-    - [ ] API
+    - [X] API
     - [ ] Integrations
 - [ ] System maintenance docs
     - [ ] DSL Admin commands
