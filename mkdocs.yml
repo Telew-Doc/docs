@@ -1,5 +1,5 @@
 site_name: Telew Docs
-site_url: http://localhost:3000
+site_url: https://telew-doc.github.io/docs
 theme:
     name: material
 

@@ -2,7 +2,7 @@
 
 ## TODO
 
-- [ ] Deploy to GitHub Pages
+- [X] Deploy to GitHub Pages
 - [X] Custom page order
 - [ ] DSL Dev Guide:
     - [ ] General workflow section
