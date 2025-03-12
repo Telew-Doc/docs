@@ -1,7 +1,8 @@
 nav:
-    - Applications.md
-    - Data-Structure
-    - Views.md
-    - API.md
-    - Bugs.md
-    - Questions Graveyard: Questions-Graveyard.md
+  - Applications.md
+  - Data-Structure
+  - Views.md
+  - Layouts.md
+  - API.md
+  - Bugs.md
+  - Questions Graveyard: Questions-Graveyard.md

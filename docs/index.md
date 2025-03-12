@@ -7,8 +7,9 @@
 - [ ] DSL Dev Guide:
     - [X] Application
     - [ ] General workflow section
-    - [ ] Finish data structures
-    - [ ] Layouts
+    - [X] Finish data structures
+    - [X] Layouts
+    - [X] Views
     - [ ] Language syntax
     - [ ] Auto-generate markdown for all definitions & fill some with comments
     - [X] API

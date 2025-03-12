@@ -1,0 +1,13 @@
+nav:
+  - Entity.md
+  - Field.md
+  - Compute-Field.md
+  - Reference.md
+  - Optional.md
+  - Collection-Fields.md
+  - Inner-Classes.md
+  - Enums.md
+  - Field-Modifiers.md
+  - Access.md
+  - Fields-Availability.md
+  - Registers.md
