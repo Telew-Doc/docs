@@ -206,6 +206,8 @@ entity Company {
 }
 ```
 
+!!! danger "`label` seems to be deprecated and can no longer be used, just write a string inside the view"
+
 ## Buttons
 
 You can use `button`s to trigger some custom action when user press them.
