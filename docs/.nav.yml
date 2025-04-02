@@ -1,4 +1,7 @@
 nav:
   - Home: index.md
+  - DSL
   - DSL-Dev-Guide
   - System-Maintenance
+  - DB
+  - DSL-Linker
