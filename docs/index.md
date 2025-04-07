@@ -10,12 +10,12 @@
     - [X] Finish data structures
     - [X] Layouts
     - [X] Views
-    - [ ] Language syntax
+    - [X] Language syntax
     - [ ] Auto-generate markdown for all definitions & fill some with comments
     - [X] API
-    - [ ] Integrations
+    - [X] Integrations
 - [ ] System maintenance docs
     - [ ] DSL Admin commands
-    - [ ] Deployments
+    - [X] Deployments
 - [ ] Back-end
     - [ ] DB schemas

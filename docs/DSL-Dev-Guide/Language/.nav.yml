@@ -1,0 +1,15 @@
+nav:
+  - Operators.md
+  - Functions.md
+  - LocalVariables.md
+  - DataTypes.md
+  - Expressions.md
+  - Declarations.md
+  - Inheritance.md
+  - Extensions.md
+  - Queries.md
+  - Automation.md
+  - CopyConstructor.md
+  - Future.md
+  - Events.md
+  - LoggingAndTracing.md
