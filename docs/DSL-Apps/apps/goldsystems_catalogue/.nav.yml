@@ -1,0 +1,9 @@
+nav:
+  - README.md
+  - BullionCatalogueService.md
+  - CatalogueApprovalStatus.md
+  - CatalogueConfig.md
+  - CatalogueItem.md
+  - HasBullionProductLink.md
+  - HasLink.md
+  - SharedItem.md

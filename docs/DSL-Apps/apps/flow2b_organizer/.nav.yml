@@ -1,0 +1,17 @@
+nav:
+  - README.md
+  - Acceptance.md
+  - AlertService.md
+  - AlertTimeType.md
+  - Appointment.md
+  - AppointmentParticipant.md
+  - AppointmentState.md
+  - CompanyPerson.md
+  - Event.md
+  - EventAlert.md
+  - EventParticipant.md
+  - IProductItem.md
+  - JobTitle.md
+  - JobType.md
+  - Resource.md
+  - ResourceType.md

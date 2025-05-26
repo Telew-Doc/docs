@@ -1,0 +1,21 @@
+nav:
+  - README.md
+  - Bug.md
+  - Customer.md
+  - DeliveryItem.md
+  - DevQuote.md
+  - DevQuoteItem.md
+  - DevQuoteItemAdd.md
+  - DevQuoteItemAddCharge.md
+  - DevQuoteItemAddEstimate.md
+  - DevRate.md
+  - DevTask.md
+  - Incident.md
+  - Issue.md
+  - QuoteState.md
+  - RentDeliveryItem.md
+  - SalesOrder.md
+  - SalesSettings.md
+  - TechTask.md
+  - UserStory.md
+  - Workspace.md

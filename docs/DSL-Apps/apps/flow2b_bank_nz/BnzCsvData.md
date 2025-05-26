@@ -1,0 +1,93 @@
+# BnzCsvData
+
+**Type:** class  
+**App:** flow2b.bank.nz
+
+**Extends:** [`BankStatementItem`](../flow2b_bank/BankStatementItem.md)
+
+## Fields
+
+### `amount`
+
+**Type:** `Dec[2]?`
+
+---
+
+### `payee`
+
+**Type:** `String?`
+
+---
+
+### `particulars`
+
+**Type:** `String?`
+
+---
+
+### `code`
+
+**Type:** `String?`
+
+---
+
+### `reference`
+
+**Type:** `String?`
+
+**Modifiers:** ref
+
+---
+
+### `type`
+
+**Type:** `String?`
+
+---
+
+### `thierAccount`
+
+**Type:** `String?`
+
+---
+
+### `serial`
+
+**Type:** `String?`
+
+---
+
+### `transactionCode`
+
+**Type:** `String?`
+
+---
+
+### `batchNumber`
+
+**Type:** `String?`
+
+---
+
+### `bankBranch`
+
+**Type:** `String?`
+
+---
+
+### `empty`
+
+**Type:** `String?`
+
+---
+
+## Functions
+
+### `data`
+
+**Returns:** `BankData`
+
+**Modifiers:** impl
+
+---
+

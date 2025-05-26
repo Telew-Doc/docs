@@ -1,0 +1,12 @@
+nav:
+  - README.md
+  - DownloadOrdersSchedule.md
+  - IBaseProduct.md
+  - IProductCategory.md
+  - ISuperProduct.md
+  - ProductCategory.md
+  - SalesOrder.md
+  - WooCommerceIntegration.md
+  - WooCommerceIntegration.md
+  - WooInitialDownload.md
+  - WooOrderStatus.md

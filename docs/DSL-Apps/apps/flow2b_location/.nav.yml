@@ -1,0 +1,17 @@
+nav:
+  - README.md
+  - Actor.md
+  - Company.md
+  - CompanyGroup.md
+  - HasTracking.md
+  - IActorLocation.md
+  - ILocation.md
+  - IMutualLocation.md
+  - IOurStore.md
+  - IStore.md
+  - Location.md
+  - LocationType.md
+  - Person.md
+  - PickUpPoint.md
+  - Store.md
+  - Workspace.md

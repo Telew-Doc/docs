@@ -1,0 +1,27 @@
+nav:
+  - README.md
+  - IMethod.md
+  - IMethodMaterial.md
+  - IMethodOutput.md
+  - IMethodResource.md
+  - IProMaterial.md
+  - IProOutput.md
+  - IProductInv.md
+  - IProductionOrder.md
+  - LWorkInProgress.md
+  - LabourResource.md
+  - MachineResource.md
+  - Material.md
+  - Method.md
+  - MethodMaterial.md
+  - MethodOutput.md
+  - MethodResource.md
+  - OproMethodMaterial.md
+  - OproMethodOutput.md
+  - OproMethodResource.md
+  - OutputProduct.md
+  - ProductionOrder.md
+  - ProductionOrderStatus.md
+  - ProductionOrderType.md
+  - Resource.md
+  - WorkInProgress.md

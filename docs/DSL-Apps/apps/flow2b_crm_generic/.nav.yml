@@ -1,0 +1,17 @@
+nav:
+  - README.md
+  - Activity.md
+  - Actor.md
+  - Appointment.md
+  - Company.md
+  - CompanyPerson.md
+  - CustomerProfile.md
+  - Gender.md
+  - OpportunityRole.md
+  - OpportunitySource.md
+  - OpportunityState.md
+  - Person.md
+  - ProfileAge.md
+  - ProfileIncome.md
+  - SalesOrder.md
+  - SourceEfficiency.md

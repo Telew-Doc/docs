@@ -1,0 +1,7 @@
+nav:
+  - README.md
+  - BullionCatalogueService.md
+  - CatalogueItemIssue.md
+  - LinkedBullionProduct.md
+  - UpdateCatalogueProductsJob.md
+  - UpdateWorkspacesToMonitorJob.md

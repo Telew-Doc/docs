@@ -1,0 +1,6 @@
+nav:
+  - README.md
+  - ExtId.md
+  - HasExtId.md
+  - IHasExtId.md
+  - IHasExtIdDecorator.md

@@ -1,0 +1,7 @@
+nav:
+  - README.md
+  - Payroll.md
+  - PayrollWorker.md
+  - Timetable.md
+  - TimetableRow.md
+  - TimetableState.md

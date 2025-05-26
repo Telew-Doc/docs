@@ -1,0 +1,12 @@
+nav:
+  - README.md
+  - AccTemplate.md
+  - AccTemplateType.md
+  - LedgerAccount.md
+  - LedgerAccountSubType.md
+  - LedgerAccountType.md
+  - LedgerSubAccount.md
+  - ProfitType.md
+  - account.md
+  - acctemplate.md
+  - analytic.md

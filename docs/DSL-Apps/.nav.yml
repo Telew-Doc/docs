@@ -1,0 +1,5 @@
+nav:
+  - index.md
+  - Apps: apps
+  - Dependencies: dependencies.md
+  - Inheritance: inheritance.md

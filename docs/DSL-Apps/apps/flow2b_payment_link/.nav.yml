@@ -1,0 +1,7 @@
+nav:
+  - README.md
+  - DebtOrigin.md
+  - IncomingPayment.md
+  - OutgoingPayment.md
+  - Payment.md
+  - PaymentSource.md

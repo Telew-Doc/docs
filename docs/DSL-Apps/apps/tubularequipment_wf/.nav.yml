@@ -1,0 +1,23 @@
+nav:
+  - README.md
+  - Actor.md
+  - CashMovement.md
+  - CashTransfer.md
+  - DropShipDelivery.md
+  - GrossMarginState.md
+  - IProduct.md
+  - IncomingPayment.md
+  - Order.md
+  - OutgoingPayment.md
+  - PurchaseDelivery.md
+  - PurchaseOrder.md
+  - QuoteProduct.md
+  - QuoteRequest.md
+  - RestoreState.md
+  - SalesDelivery.md
+  - SalesDelivery.md
+  - SalesOrder.md
+  - TubularSuperProduct.md
+  - TubularSupplierPricing.md
+  - TubularSupplierProductPrice.md
+  - VerificationStatus.md

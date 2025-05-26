@@ -1,0 +1,8 @@
+nav:
+  - README.md
+  - ActivityDelivery.md
+  - IPhoneContact.md
+  - ISMSClientService.md
+  - ISMSService.md
+  - PhoneValidationResult.md
+  - PinpointClientConfig.md

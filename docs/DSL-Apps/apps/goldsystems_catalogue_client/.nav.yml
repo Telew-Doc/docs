@@ -1,0 +1,7 @@
+nav:
+  - README.md
+  - BullionCatalogueService.md
+  - BullionName.md
+  - SharedProduct.md
+  - SharedProductIssue.md
+  - SyncCatalogueProductsJob.md

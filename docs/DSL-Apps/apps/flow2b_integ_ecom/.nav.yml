@@ -1,0 +1,19 @@
+nav:
+  - README.md
+  - ECommerceDeliveryMethod.md
+  - ECommerceInitialDownload.md
+  - ECommerceIntegration.md
+  - ECommerceIntegration.md
+  - ECommerceIntegration.md
+  - ECommerceIntegration.md
+  - ECommerceIntegration.md
+  - ECommercePaymentMethod.md
+  - ECommerceSyncAllJob.md
+  - HasExtId.md
+  - ISubProduct.md
+  - ISubVariation.md
+  - ISuperProduct.md
+  - InitialDownloadCompleteJob.md
+  - ProdNum.md
+  - ProductCategory.md
+  - SuperProductUpdate.md

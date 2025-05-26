@@ -1,0 +1,55 @@
+# LedgerAccountSubType
+
+**Type:** enum  
+**App:** flow2b.acc.gen
+
+## Cases
+
+- `Cash`
+- `Receivables`
+- `LoansProvided`
+- `Inventory`
+- `WorkInProgress`
+- `PrepaidExpenses`
+- `FixedAssets`
+- `CurrentAssets`
+- `Intangibles`
+- `TermDeposits`
+- `Shares`
+- `NonCurrentAssets`
+- `Asset`
+- `Payables`
+- `LoansReceived`
+- `Provisions`
+- `CurrentLiability`
+- `NonCurrentLiability`
+- `UnearnedRevenues`
+- `CurrentAccountsLiability`
+- `Liability`
+- `CurrentAccountsReceivable`
+- `CurrentAccountsPayable`
+- `CapitalAccountsReceivable`
+- `CapitalAccountsPayable`
+- `Withdrawals`
+- `DividendsPaid`
+- `Equity`
+- `Sales`
+- `RentRevenue`
+- `InterestRevenue`
+- `DivedendsRevenue`
+- `OperatingRevenue`
+- `NonOperatingRevenue`
+- `ExceptionalRevenue`
+- `Revenue`
+- `CostOfGoodsSold`
+- `OperatingExpense`
+- `Overhead`
+- `BadDebts`
+- `DepreciationExpense`
+- `InterestExpense`
+- `SalariesExpense`
+- `ExceptionalExpense`
+- `Expense`
+- `Trading`
+- `Error`
+

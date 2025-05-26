@@ -1,0 +1,21 @@
+nav:
+  - README.md
+  - Basic.md
+  - Currency.md
+  - CurrencyTrading.md
+  - CurrencyTrading.md
+  - DebitCredit.md
+  - HasDate.md
+  - IncomeSummary.md
+  - Journal.md
+  - LCurrencyTrading.md
+  - LIncomeSummary.md
+  - Ledger.md
+  - MEmptyLedger.md
+  - MJournal.md
+  - MLedger.md
+  - MLedgerCurrency.md
+  - MLedgerNoCurrency.md
+  - OurCompany.md
+  - OurLegalEntity.md
+  - OurPerson.md

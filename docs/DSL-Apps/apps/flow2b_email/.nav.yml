@@ -1,0 +1,23 @@
+nav:
+  - README.md
+  - Activity.md
+  - ContactSenderEmail.md
+  - EmailLinks.md
+  - EmailSubscription.md
+  - IEmailContact.md
+  - IEmailContact.md
+  - IMailTemplateStd.md
+  - IUser.md
+  - MailAttachment.md
+  - MailHttpData.md
+  - MailService.md
+  - MailStatusData.md
+  - MailStatusMessage.md
+  - MailTemplate.md
+  - MailTemplateHtml.md
+  - MailTemplateStandard.md
+  - Ticket.md
+  - User.md
+  - WebhookEventType.md
+  - WebhookMailStatusEvent.md
+  - Workspace.md

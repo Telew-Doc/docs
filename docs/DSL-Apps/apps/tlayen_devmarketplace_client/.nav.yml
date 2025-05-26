@@ -1,0 +1,12 @@
+nav:
+  - README.md
+  - AdmitUserJob.md
+  - CreateInvitationJob.md
+  - Invitation.md
+  - InvitationIssue.md
+  - InvitationState.md
+  - MarketplaceClientUtilities.md
+  - MarketplaceService.md
+  - Person.md
+  - RejectAdmitionJob.md
+  - User.md

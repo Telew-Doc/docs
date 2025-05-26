@@ -1,0 +1,1209 @@
+# Type Inheritance Hierarchy
+
+## Inheritance Tree
+
+- `Actor`
+  - `CompanyGroup`
+  - `LegalEntity`
+    - `Company`
+    - `Person`
+
+- `AnyRef`
+  - `AnyClass`
+  - `AnyEntity`
+    - `DeferredJob`
+      - `DlvRepeat`
+      - `EventAlert`
+      - `OrderDueUpdateJob`
+      - `TrademeListing`
+    - `EventParticipant`
+      - `AppointmentParticipant`
+    - `HasDebtCounterparty`
+    - `HasExtId`
+    - `IAuth`
+      - `IOAuth1`
+        - `OAuth1Hmac`
+        - `OAuth1Rsa`
+      - `OAuth2`
+    - `IBarcode`
+      - `Barcode`
+    - `IEndpoint`
+      - `BulkApi`
+      - `Endpoint`
+    - `IPriceModOwner`
+    - `IProdFilterOwner`
+      - `IPriceFilterModOwner`
+      - `ProdFilterAnd`
+      - `ProdFilterNot`
+      - `ProdFilterOr`
+    - `IProdMoveItemIn`
+      - `IProOutput`
+        - `OproMethodOutput`
+    - `IProdMoveItemOut`
+    - `IProdUnit`
+    - `IQr`
+    - `IReason`
+      - `IReturnReason`
+      - `ITaxPayment`
+        - `TaxPayment`
+        - `TaxReturn`
+          - `GstTaxReturn`
+          - `IncomeTaxReturn`
+    - `IReasonOwner`
+      - `IPReasonOwner`
+      - `OPReasonOwner`
+    - `IReconFilterOwner`
+    - `IReconOwner`
+    - `ISupportUnitItem`
+      - `IssueSpuUsage`
+    - `ISupportUnitReg`
+      - `SupportUnitReg`
+    - `IVisabilityOwner`
+    - `IncomeRecodable`
+    - `InlineEntity`
+      - `DevQuoteItemAdd`
+        - `DevQuoteItemAddCharge`
+        - `DevQuoteItemAddEstimate`
+      - `FundReq`
+        - `FundReqArr`
+        - `FundReqOther`
+      - `IAmountItem`
+        - `IAmountQtyItem`
+        - `OrderItem`
+          - `DiscountItem`
+            - `PurchaseDiscountItem`
+              - `XeroCreditNotePurchaseDiscountItem`
+            - `SalesDiscountItem`
+              - `XeroCreditNoteSalesDiscountItem`
+          - `IPurchaseItem`
+            - `IPurchaseItemWithDelivery`
+              - `IPurchaseProductItem`
+                - `JewelleryPurchaseItem`
+                - `OneoffPurchaseItem`
+                - `PurchaseItem`
+              - `PurchaseRentItem`
+          - `ISalesItem`
+            - `ISalesItemWithDelivery`
+              - `SalesItem`
+              - `SalesRentItem`
+            - `SalesBondItem`
+          - `OrderProductItem`
+            - `IRentItem`
+      - `IDesire`
+        - `AllUsersDesire`
+        - `Desire`
+      - `IFProductItems`
+        - `FProductItems`
+        - `FProductItemsInline`
+      - `IMethodMaterial`
+      - `IMethodOutput`
+      - `IMethodResource`
+        - `MethodResource`
+        - `OproMethodResource`
+      - `IOrderDlvItem`
+        - `DiscountDeliveryItem`
+        - `IDlvProductItem`
+          - `DeliveryItem`
+          - `IDlvProgressItem`
+            - `RentDeliveryItem`
+          - `JewelleryDeliveryItem`
+          - `OneoffDeliveryItem`
+      - `IOrderItem`
+        - `IOrderProdItem`
+      - `IPReason`
+        - `AdditionalCapital`
+        - `IPBankFees`
+        - `IPReturn`
+        - `IncomingInterest`
+        - `PaymentRevenue`
+      - `IPriceMod`
+        - `PriceModDiscountFixed`
+        - `PriceModDiscountPercent`
+        - `PriceModDurDiscountPercent`
+      - `IProdFilter`
+        - `ProdFilterBrand`
+        - `ProdFilterCategory`
+        - `ProdFilterProd`
+        - `ProdFilterTag`
+      - `IProdQtyItem`
+        - `IProdAmountQtyItem`
+          - `IProMaterial`
+            - `OproMethodMaterial`
+          - `MethodMaterial`
+          - `MethodOutput`
+          - `TransferItem`
+      - `IQueBlockParam`
+        - `QueBlockParamConst`
+      - `IQueRsp`
+        - `QueRspBlock`
+        - `QueRspBool`
+        - `QueRspChoice`
+        - `QueRspFiles`
+        - `QueRspStaticText`
+        - `QueRspStr`
+        - `QueRspText`
+      - `IRecon`
+        - `ReconCp`
+        - `ReconExpense`
+        - `ReconMakeTransfer`
+        - `ReconRevenue`
+      - `IReconFilter`
+        - `ReconFilterAccount`
+        - `ReconFilterAnd`
+        - `ReconFilterBankStm`
+        - `ReconFilterData`
+        - `ReconFilterNot`
+        - `ReconFilterOr`
+        - `ReconFilterPaymentType`
+      - `IVisability`
+        - `IVisabilityCombinator`
+          - `And`
+          - `Not`
+          - `Or`
+        - `ShowIfChosen`
+        - `ShowIfNo`
+        - `ShowIfNotChosen`
+        - `ShowIfYes`
+      - `KitModelRule`
+      - `LegalStructure`
+        - `ICorporation`
+        - `IPartnership`
+        - `ISoleTrader`
+      - `MLedger`
+        - `MLedgerCurrency`
+        - `MLedgerNoCurrency`
+          - `MEmptyLedger`
+      - `NZLegalStructure`
+        - `NZCompany`
+        - `NZPartnership`
+        - `NZSoleTrader`
+        - `NZTrust`
+      - `OPReason`
+        - `OPBankFees`
+        - `OPReturn`
+        - `OutgoingInterest`
+        - `PaymentExpense`
+        - `Salary`
+        - `Withdrawal`
+      - `PaymentIncome`
+      - `QueRspBlockItem`
+      - `Register`
+        - `Ledger`
+          - `ILExpenses`
+          - `ILProduct`
+            - `LInvBase`
+          - `ILSalaryExpenses`
+          - `LDebt`
+      - `SaleCampaignRule`
+      - `StocktakeItem`
+    - `MsgProc`
+      - `EftposNZDailyMailImporter`
+      - `MsgProcActivity`
+    - `NewEngine`
+    - `RefEntity`
+      - `Addressee`
+      - `DevProduct`
+        - `PersonalProject`
+        - `UniversalApp`
+      - `Entity`
+        - `AccountsImport`
+        - `AccountsListImport`
+        - `Actor`
+          - `CompanyGroup`
+          - `LegalEntity`
+            - `Company`
+            - `Person`
+        - `Application`
+          - `DriverApplication`
+          - `SalesContractorApplication`
+        - `AutoBuildItemsImport`
+        - `AutoSend`
+        - `Blockable`
+        - `Brand`
+        - `CardListImport`
+        - `CardsImport`
+          - `CustomersImport`
+          - `SuppliersImport`
+        - `CashMovement`
+          - `CashTransfer`
+          - `Payment`
+            - `IncomingPayment`
+            - `OutgoingPayment`
+        - `CatalogueItemIssue`
+        - `CocoBellaCatImportSchema`
+        - `CocoBellaProdImportSchema`
+        - `CrossSell`
+        - `Event`
+          - `Appointment`
+          - `BridalAppointment`
+        - `File`
+          - `FileGeneric`
+          - `Image`
+        - `FinAccount`
+          - `PayNowAccount`
+          - `PingAccount`
+          - `SFinAccount`
+            - `BankAccount`
+            - `CapitalAccount`
+            - `CashAccount`
+            - `CurrentAccount`
+            - `ICardAccount`
+              - `CardAccount`
+              - `EftposNZCardAccount`
+            - `LoanAccount`
+            - `TransferwiseAccount`
+          - `TrademeFinAccount`
+        - `Flow2bSupport`
+        - `HasLink`
+          - `HasBullionProductLink`
+            - `CatalogueItem`
+              - `LinkedBullionProduct`
+            - `SharedItem`
+              - `SharedProduct`
+        - `HasLowBalance`
+        - `IActiveItem`
+          - `AppIssue`
+        - `IActorLocation`
+          - `Location`
+        - `IBulkMsg`
+          - `BulkMsg`
+          - `SupportBulkMsg`
+        - `IMutualLocation`
+          - `PickUpPoint`
+        - `IOrderDlv`
+          - `OrderDlv`
+            - `IPurchaseDelivery`
+              - `DropShipDelivery`
+              - `PurchaseDelivery`
+            - `ISalesDelivery`
+              - `SalesDelivery`
+        - `IOrderRevision`
+          - `IOrder`
+            - `IPurchaseOrder`
+            - `ISalesOrder`
+          - `Invoice`
+        - `IProdMove`
+          - `IProdMoveIn`
+          - `IProdMoveOut`
+            - `Transfer`
+        - `IProductAttr`
+          - `ProductAttr`
+        - `IProductAttrTerm`
+          - `ProductAttrTerm`
+        - `IProductionOrder`
+          - `ProductionOrder`
+        - `IReconRule`
+          - `IReconRuleCp`
+            - `ReconCpNameAllParts`
+            - `ReconCpNameFull`
+            - `ReconCpNamePart`
+            - `ReconCpRefNumFull`
+            - `ReconCpRefNumNoPrefix`
+          - `ReconCpPaymentMethod`
+          - `ReconEftposNZTransfer`
+          - `ReconEftposTransfer`
+          - `ReconRule`
+          - `ReconTrademeMemberPayee`
+          - `ReconTrademeMemberTransfer`
+          - `ReconTrademePaynowTransfer`
+          - `ReconTrademePingTransfer`
+          - `ReconTrademePingTransferTo`
+          - `ReconTransfer`
+        - `IRoute`
+          - `Route`
+        - `ISalesChannel`
+          - `SalesChannel`
+        - `IStore`
+          - `IOurStore`
+            - `RetailStore`
+            - `Store`
+        - `ImportTask`
+          - `BankStatementUpload`
+          - `Import`
+          - `OrderImport`
+        - `ImportedOrder`
+        - `InventoryWriteDown`
+        - `InventoryWriteUp`
+        - `InvitationIssue`
+          - `Invitation`
+        - `Issue`
+          - `BacklogIssue`
+            - `DevIssue`
+              - `Bug`
+              - `DevTask`
+              - `UserStory`
+            - `IUserStory`
+              - `Epic`
+          - `Incident`
+          - `TechTask`
+        - `ItemListSummaryImport`
+        - `ItemsImport`
+        - `KPI`
+        - `Maintenance`
+        - `MarketingIssue`
+          - `CustomerStory`
+        - `Method`
+        - `Milestone`
+        - `Order`
+          - `PurchaseOrder`
+          - `SalesOrder`
+        - `OrderImportStatistics`
+        - `PriceLevelDefault`
+        - `ProductCategory`
+        - `ProductTag`
+        - `ProjectIssue`
+          - `DeveloperProject`
+        - `ProposalIssue`
+          - `Proposal`
+        - `Questionnaire`
+        - `RawContact`
+          - `RawEmailContact`
+          - `RawPhoneContact`
+        - `RuntimeAttributeExtension`
+        - `SalaryType`
+        - `Schedule`
+        - `Schedule24`
+        - `ScheduleAssignee`
+        - `SharedProductIssue`
+        - `SupportUnitMove`
+          - `SupportUnitWriteDown`
+          - `SupportUnitWriteUp`
+        - `SystemService`
+          - `AlertService`
+          - `BSUService`
+          - `BookApi`
+          - `BulkMsgService`
+          - `BullionCatalogueService`
+          - `ContactFormService`
+          - `ConversionService`
+          - `DevService`
+          - `DlvRepeatService`
+          - `FinanceNotificator`
+          - `IApiService`
+            - `ApiService`
+          - `ISMSClientService`
+            - `SMSClientService`
+          - `JpImport`
+          - `KPIService`
+          - `MailService`
+          - `MarketplaceService`
+          - `NotifyService`
+          - `OrderImportService`
+          - `OrderUpdateService`
+          - `PriceService`
+          - `ProdImportService`
+          - `PublicService`
+          - `ReconService`
+          - `RegisterService`
+          - `WorkspaceAlertService`
+        - `TaxReturn`
+          - `GstTaxReturn`
+          - `IncomeTaxReturn`
+        - `TestFolding`
+        - `Ticket`
+        - `WebPage`
+          - `MarketingProduct`
+          - `MarketingProductGroup`
+          - `Niche`
+      - `HasNumber`
+        - `HasN`
+          - `DevQuote`
+          - `HelpArticle`
+          - `HelpTopic`
+          - `IDebtMod`
+            - `DebtWriteDown`
+          - `Payroll`
+          - `QrTemplate`
+          - `SalesOpportunity`
+          - `SubscrList`
+          - `Timetable`
+          - `TrademeQuestion`
+        - `IBaseProduct`
+          - `ISubProduct`
+            - `IBasicSubProduct`
+              - `IBasicKit`
+              - `IBasicProduct`
+                - `IIncomeType`
+                  - `ExpenseType`
+                  - `RevenueType`
+            - `IKit`
+            - `IProduct`
+              - `IProductInv`
+            - `ISubVariation`
+              - `IKitVariation`
+              - `IVariation`
+            - `JewelleryProduct`
+          - `ISuperProduct`
+            - `IVariableSuperProduct`
+              - `IVariableKit`
+            - `MetalSuperProduct`
+              - `BullionSuperProduct`
+              - `JewellerySuperProduct`
+            - `WalkingFrameSuperProduct`
+              - `TubularSuperProduct`
+        - `QrVersion`
+      - `HasTracking`
+      - `IAltUnits`
+      - `IContact`
+        - `Contact`
+          - `ContactAddressee`
+          - `IEmailContact`
+          - `IPhoneContact`
+      - `IIPRecon`
+      - `ILocation`
+      - `IMetalSuperProduct`
+      - `IMethod`
+      - `IOPRecon`
+      - `IOrderTerms`
+        - `OrderTerms`
+      - `IPriceLevel`
+        - `PriceLevel`
+      - `IPriceModel`
+        - `BookPriceModel`
+        - `IContinuousPriceModel`
+          - `ContinuousPriceModel`
+        - `IDynamicPriceModel`
+          - `BullionDealsPricing`
+          - `JewelleryPricing`
+          - `KitPriceModel`
+          - `MarginPriceModel`
+          - `SaleCampaign`
+        - `ISlottedPriceModel`
+          - `SlottedPriceModel`
+        - `IStaticPriceModel`
+          - `BullionSupplierPricing`
+          - `PriceList`
+          - `TRentPriceModel`
+          - `TubularSupplierPricing`
+      - `IProdMovePath`
+        - `FPathDates`
+      - `IProductItem`
+        - `ProductItem`
+        - `Resource`
+          - `LabourResource`
+          - `MachineResource`
+      - `IProductTaxonomy`
+        - `ICrossSell`
+        - `IProductCategory`
+        - `IProductTag`
+        - `InventoryType`
+        - `ShippingClass`
+      - `ISalaryType`
+      - `ISchedule`
+      - `IUser`
+      - `Journal`
+        - `AccountingPeriod`
+        - `DebtOrigin`
+          - `CptInitBalance`
+          - `PaymentSource`
+        - `MJournal`
+          - `BalanceCorrection`
+          - `JournalEntry`
+        - `StockCorrection`
+          - `Stocktake`
+      - `PseudoEntity`
+        - `ActorContact`
+          - `EmailContact`
+          - `PhoneContact`
+          - `TrademeAccountContact`
+          - `WebsiteContact`
+        - `BulkMsgDelivery`
+        - `CompanyPerson`
+        - `Dashboard`
+        - `DebtReason`
+          - `IPDebt`
+          - `OPDebt`
+        - `DevQuoteItem`
+        - `ICounterparty`
+          - `ICustomer`
+            - `Customer`
+          - `IVendor`
+            - `Vendor`
+        - `IShipping`
+          - `IDDShipping`
+            - `DDRetShipping`
+            - `DDShipping`
+          - `Shipping`
+            - `PDRetShipping`
+            - `PDShipping`
+            - `SDRetShipping`
+            - `SDShipping`
+        - `IStaticPrice`
+          - `BullionSupplierProductPrice`
+          - `IStaticPriceRent`
+            - `TRentProductPrice`
+              - `ContinuousProductPrice`
+              - `SlottedProductPrice`
+          - `IStaticPriceSales`
+            - `PriceListProduct`
+          - `TubularSupplierProductPrice`
+        - `InitBalance`
+        - `Material`
+        - `OurActor`
+          - `OurCompanyGroup`
+          - `OurLegalEntity`
+            - `OurCompany`
+            - `OurPerson`
+        - `OutputProduct`
+        - `PaymentMethod`
+          - `PMBankAccount`
+        - `QrVersionParam`
+        - `QueChoiceOption`
+        - `User`
+      - `Resource`
+        - `LabourResource`
+        - `MachineResource`
+    - `RequereTnc`
+    - `ScheduledJob`
+      - `DevIssuesStatusUpdater`
+      - `DownloadOrdersSchedule`
+      - `RetrieveQuestionsJob`
+      - `RetrieveSoldItemsJob`
+      - `SyncCatalogueProductsJob`
+      - `UpdateCatalogueProductsJob`
+      - `UpdateWorkspacesToMonitorJob`
+      - `UpdateWorkspacesToMonitorJob`
+    - `TimeLog`
+  - `IRole`
+  - `LegalInfo`
+    - `LegalInfoNZ`
+  - `MailTemplate`
+    - `IMailTemplateStd`
+      - `DonnaMailTemplate`
+      - `Flow2bMailTemplate`
+      - `MailTemplateStandard`
+    - `MailTemplateHtml`
+
+- `BankStatementItem`
+  - `AnzCreditCardCsvData`
+  - `AnzCsvData`
+  - `AnzLoanCsv`
+  - `AnzPdfData`
+  - `AsbCreditCardCsvData`
+  - `AsbCsvData`
+  - `BnzCsvData`
+  - `BnzForeignCsvData`
+  - `EftposCsvData`
+  - `EftposPdfCsvData`
+  - `KiwibankCsvFullData`
+  - `KiwibankCsvShortData`
+  - `PaymarkCsvData`
+  - `TransferwiseCsvData`
+
+- `CashMovement`
+  - `CashTransfer`
+  - `Payment`
+    - `IncomingPayment`
+    - `OutgoingPayment`
+
+- `ContactSender`
+  - `ContactSenderEmail`
+  - `ContactSenderJoin`
+  - `ContactSenderPhone`
+
+- `DebtOrigin`
+  - `CptInitBalance`
+  - `PaymentSource`
+
+- `Declaration`
+  - `Compute`
+  - `Field`
+  - `Func`
+
+- `Depreciation`
+  - `DiminishingValue`
+  - `StraightLine`
+
+- `ECommerceInitialDownload`
+  - `WooInitialDownload`
+
+- `Entity`
+  - `AccountsImport`
+  - `AccountsListImport`
+  - `Actor`
+    - `CompanyGroup`
+    - `LegalEntity`
+      - `Company`
+      - `Person`
+  - `Application`
+    - `DriverApplication`
+    - `SalesContractorApplication`
+  - `AutoBuildItemsImport`
+  - `AutoSend`
+  - `Blockable`
+  - `Brand`
+  - `CardListImport`
+  - `CardsImport`
+    - `CustomersImport`
+    - `SuppliersImport`
+  - `CashMovement`
+    - `CashTransfer`
+    - `Payment`
+      - `IncomingPayment`
+      - `OutgoingPayment`
+  - `CatalogueItemIssue`
+  - `CocoBellaCatImportSchema`
+  - `CocoBellaProdImportSchema`
+  - `CrossSell`
+  - `Event`
+    - `Appointment`
+    - `BridalAppointment`
+  - `File`
+    - `FileGeneric`
+    - `Image`
+  - `FinAccount`
+    - `PayNowAccount`
+    - `PingAccount`
+    - `SFinAccount`
+      - `BankAccount`
+      - `CapitalAccount`
+      - `CashAccount`
+      - `CurrentAccount`
+      - `ICardAccount`
+        - `CardAccount`
+        - `EftposNZCardAccount`
+      - `LoanAccount`
+      - `TransferwiseAccount`
+    - `TrademeFinAccount`
+  - `Flow2bSupport`
+  - `HasLink`
+    - `HasBullionProductLink`
+      - `CatalogueItem`
+        - `LinkedBullionProduct`
+      - `SharedItem`
+        - `SharedProduct`
+  - `HasLowBalance`
+  - `IActiveItem`
+    - `AppIssue`
+  - `IActorLocation`
+    - `Location`
+  - `IBulkMsg`
+    - `BulkMsg`
+    - `SupportBulkMsg`
+  - `IMutualLocation`
+    - `PickUpPoint`
+  - `IOrderDlv`
+    - `OrderDlv`
+      - `IPurchaseDelivery`
+        - `DropShipDelivery`
+        - `PurchaseDelivery`
+      - `ISalesDelivery`
+        - `SalesDelivery`
+  - `IOrderRevision`
+    - `IOrder`
+      - `IPurchaseOrder`
+      - `ISalesOrder`
+    - `Invoice`
+  - `IProdMove`
+    - `IProdMoveIn`
+    - `IProdMoveOut`
+      - `Transfer`
+  - `IProductAttr`
+    - `ProductAttr`
+  - `IProductAttrTerm`
+    - `ProductAttrTerm`
+  - `IProductionOrder`
+    - `ProductionOrder`
+  - `IReconRule`
+    - `IReconRuleCp`
+      - `ReconCpNameAllParts`
+      - `ReconCpNameFull`
+      - `ReconCpNamePart`
+      - `ReconCpRefNumFull`
+      - `ReconCpRefNumNoPrefix`
+    - `ReconCpPaymentMethod`
+    - `ReconEftposNZTransfer`
+    - `ReconEftposTransfer`
+    - `ReconRule`
+    - `ReconTrademeMemberPayee`
+    - `ReconTrademeMemberTransfer`
+    - `ReconTrademePaynowTransfer`
+    - `ReconTrademePingTransfer`
+    - `ReconTrademePingTransferTo`
+    - `ReconTransfer`
+  - `IRoute`
+    - `Route`
+  - `ISalesChannel`
+    - `SalesChannel`
+  - `IStore`
+    - `IOurStore`
+      - `RetailStore`
+      - `Store`
+  - `ImportTask`
+    - `BankStatementUpload`
+    - `Import`
+    - `OrderImport`
+  - `ImportedOrder`
+  - `InventoryWriteDown`
+  - `InventoryWriteUp`
+  - `InvitationIssue`
+    - `Invitation`
+  - `Issue`
+    - `BacklogIssue`
+      - `DevIssue`
+        - `Bug`
+        - `DevTask`
+        - `UserStory`
+      - `IUserStory`
+        - `Epic`
+    - `Incident`
+    - `TechTask`
+  - `ItemListSummaryImport`
+  - `ItemsImport`
+  - `KPI`
+  - `Maintenance`
+  - `MarketingIssue`
+    - `CustomerStory`
+  - `Method`
+  - `Milestone`
+  - `Order`
+    - `PurchaseOrder`
+    - `SalesOrder`
+  - `OrderImportStatistics`
+  - `PriceLevelDefault`
+  - `ProductCategory`
+  - `ProductTag`
+  - `ProjectIssue`
+    - `DeveloperProject`
+  - `ProposalIssue`
+    - `Proposal`
+  - `Questionnaire`
+  - `RawContact`
+    - `RawEmailContact`
+    - `RawPhoneContact`
+  - `RuntimeAttributeExtension`
+  - `SalaryType`
+  - `Schedule`
+  - `Schedule24`
+  - `ScheduleAssignee`
+  - `SharedProductIssue`
+  - `SupportUnitMove`
+    - `SupportUnitWriteDown`
+    - `SupportUnitWriteUp`
+  - `SystemService`
+    - `AlertService`
+    - `BSUService`
+    - `BookApi`
+    - `BulkMsgService`
+    - `BullionCatalogueService`
+    - `ContactFormService`
+    - `ConversionService`
+    - `DevService`
+    - `DlvRepeatService`
+    - `FinanceNotificator`
+    - `IApiService`
+      - `ApiService`
+    - `ISMSClientService`
+      - `SMSClientService`
+    - `JpImport`
+    - `KPIService`
+    - `MailService`
+    - `MarketplaceService`
+    - `NotifyService`
+    - `OrderImportService`
+    - `OrderUpdateService`
+    - `PriceService`
+    - `ProdImportService`
+    - `PublicService`
+    - `ReconService`
+    - `RegisterService`
+    - `WorkspaceAlertService`
+  - `TaxReturn`
+    - `GstTaxReturn`
+    - `IncomeTaxReturn`
+  - `TestFolding`
+  - `Ticket`
+  - `WebPage`
+    - `MarketingProduct`
+    - `MarketingProductGroup`
+    - `Niche`
+
+- `Event`
+  - `Appointment`
+  - `BridalAppointment`
+
+- `FinAccount`
+  - `PayNowAccount`
+  - `PingAccount`
+  - `SFinAccount`
+    - `BankAccount`
+    - `CapitalAccount`
+    - `CashAccount`
+    - `CurrentAccount`
+    - `ICardAccount`
+      - `CardAccount`
+      - `EftposNZCardAccount`
+    - `LoanAccount`
+    - `TransferwiseAccount`
+  - `TrademeFinAccount`
+
+- `Generator`
+  - `ProdGen`
+
+- `HasDate`
+  - `OriginAmount`
+
+- `Hashable`
+  - `Data`
+
+- `IBaseProduct`
+  - `ISubProduct`
+    - `IBasicSubProduct`
+      - `IBasicKit`
+      - `IBasicProduct`
+        - `IIncomeType`
+          - `ExpenseType`
+          - `RevenueType`
+    - `IKit`
+    - `IProduct`
+      - `IProductInv`
+    - `ISubVariation`
+      - `IKitVariation`
+      - `IVariation`
+    - `JewelleryProduct`
+  - `ISuperProduct`
+    - `IVariableSuperProduct`
+      - `IVariableKit`
+    - `MetalSuperProduct`
+      - `BullionSuperProduct`
+      - `JewellerySuperProduct`
+    - `WalkingFrameSuperProduct`
+      - `TubularSuperProduct`
+
+- `ICardAccount`
+  - `CardAccount`
+  - `EftposNZCardAccount`
+
+- `ICounterparty`
+  - `ICustomer`
+    - `Customer`
+  - `IVendor`
+    - `Vendor`
+
+- `IFix`
+  - `FollowUpFix`
+  - `ToEstimateFix`
+
+- `IHasExtId`
+  - `IHasExtIdDecorator`
+
+- `IHttpRequest`
+  - `HttpRequest`
+  - `IncomingHttpRequest`
+
+- `IIDesire`
+  - `IntDesire`
+
+- `IIOrderTerms`
+  - `DefaultOrderTerms`
+
+- `IIPriceModel`
+  - `PriceModelNone`
+
+- `IIncomeType`
+  - `ExpenseType`
+  - `RevenueType`
+
+- `IMargin`
+  - `CategoryMargin`
+  - `ProductMargin`
+
+- `IMetalMargin`
+  - `BullionDealsClearanceItem`
+  - `MetalMargin`
+
+- `IOrder`
+  - `IPurchaseOrder`
+  - `ISalesOrder`
+
+- `IOrderTerms`
+  - `OrderTerms`
+
+- `IPrice`
+  - `IPriceRent`
+    - `BookProdPrice`
+    - `IContinuousProductPrice`
+    - `IPriceRentDecorator`
+    - `ISlottedProductPrice`
+  - `IPriceSales`
+    - `BullionDealsPrice`
+    - `IPriceSalesRent`
+      - `KitPrice`
+      - `PriceModApplier`
+    - `JewelleryPrice`
+    - `MarginPrice`
+
+- `IPriceModel`
+  - `BookPriceModel`
+  - `IContinuousPriceModel`
+    - `ContinuousPriceModel`
+  - `IDynamicPriceModel`
+    - `BullionDealsPricing`
+    - `JewelleryPricing`
+    - `KitPriceModel`
+    - `MarginPriceModel`
+    - `SaleCampaign`
+  - `ISlottedPriceModel`
+    - `SlottedPriceModel`
+  - `IStaticPriceModel`
+    - `BullionSupplierPricing`
+    - `PriceList`
+    - `TRentPriceModel`
+    - `TubularSupplierPricing`
+
+- `IPriceRent`
+  - `BookProdPrice`
+  - `IContinuousProductPrice`
+  - `IPriceRentDecorator`
+  - `ISlottedProductPrice`
+
+- `IPriceSales`
+  - `BullionDealsPrice`
+  - `IPriceSalesRent`
+    - `KitPrice`
+    - `PriceModApplier`
+  - `JewelleryPrice`
+  - `MarginPrice`
+
+- `IProdMoveItem`
+  - `IIProdMoveItemIn`
+  - `IIProdMoveItemOut`
+
+- `IProdMoveOut`
+  - `Transfer`
+
+- `IProdMovePath`
+  - `FPathDates`
+
+- `IProduct`
+  - `IProductInv`
+
+- `IProductItem`
+  - `ProductItem`
+  - `Resource`
+    - `LabourResource`
+    - `MachineResource`
+
+- `ISalesDelivery`
+  - `SalesDelivery`
+
+- `IStaticPriceModel`
+  - `BullionSupplierPricing`
+  - `PriceList`
+  - `TRentPriceModel`
+  - `TubularSupplierPricing`
+
+- `IStore`
+  - `IOurStore`
+    - `RetailStore`
+    - `Store`
+
+- `ISubProduct`
+  - `IBasicSubProduct`
+    - `IBasicKit`
+    - `IBasicProduct`
+      - `IIncomeType`
+        - `ExpenseType`
+        - `RevenueType`
+  - `IKit`
+  - `IProduct`
+    - `IProductInv`
+  - `ISubVariation`
+    - `IKitVariation`
+    - `IVariation`
+  - `JewelleryProduct`
+
+- `ISubVariation`
+  - `IKitVariation`
+  - `IVariation`
+
+- `ISuperProduct`
+  - `IVariableSuperProduct`
+    - `IVariableKit`
+  - `MetalSuperProduct`
+    - `BullionSuperProduct`
+    - `JewellerySuperProduct`
+  - `WalkingFrameSuperProduct`
+    - `TubularSuperProduct`
+
+- `ISystemJob`
+  - `ApiSystemJob`
+  - `SystemJob`
+    - `ActivitySendSMSJob`
+    - `ActorPaymentReprocessJob`
+    - `AdmitUserJob`
+    - `BulkMsgSendJob`
+    - `CreateInvitationJob`
+    - `CustomersImportJob`
+    - `DeleteAllCancelledVersionsJob`
+    - `DownloadListingJob`
+    - `DownloadListingsJob`
+    - `ECommerceSyncAllJob`
+    - `ExpenseReprocessJob`
+    - `GenAccStm`
+    - `ImportJob`
+      - `PurchaseOrderImportJob`
+      - `StatementProcessJob`
+    - `InitialDownloadCompleteJob`
+    - `InitialSyncFinishedJob`
+    - `MakeOrderJob`
+    - `NewStmNotif`
+    - `PaymentMethodReprocessJob`
+    - `PhoneValidationJob`
+    - `PostAnswerJob`
+    - `ProcessReplyJob`
+    - `ProdImportJob`
+    - `PushAllContacsJob`
+    - `PushContactJob`
+    - `PushInvoiceJob`
+    - `PushInvoiceRevisionJob`
+    - `PushItemJob`
+    - `PushSalesOrderState`
+    - `RejectAdmitionJob`
+    - `RejectProjectJob`
+    - `ReprocessFileJob`
+    - `RetrieveAccountsJob`
+    - `RetrieveAssetsJob`
+    - `RetrieveBankTransactionsJob`
+    - `RetrieveBankTransfersJob`
+    - `RetrieveContactsJob`
+    - `RetrieveInvoicePaymentsJob`
+    - `RetrieveInvoicesJob`
+    - `RetrieveItemsJob`
+    - `RetrieveListingStats`
+    - `RetrieveMatchedItemsJob`
+    - `RetrieveOneAssetJob`
+    - `RetrieveOrganisationJob`
+    - `RetrievePaymentJob`
+    - `RetrievePaymentsJob`
+    - `SyncFinishedJob`
+    - `SyncUpdatesJob`
+    - `UpdateAllProductsJob`
+    - `UpdateCategoriesJob`
+    - `UpdateDeliveryStatusJob`
+    - `UpdateUserRolesJob`
+    - `XTestJob`
+
+- `IVendor`
+  - `Vendor`
+
+- `IWeightSize`
+  - `TWeightSizeOnly`
+    - `TWeightSize`
+      - `ProductAltUnit`
+
+- `Issue`
+  - `BacklogIssue`
+    - `DevIssue`
+      - `Bug`
+      - `DevTask`
+      - `UserStory`
+    - `IUserStory`
+      - `Epic`
+  - `Incident`
+  - `TechTask`
+
+- `JobError`
+  - `IgnoreError`
+
+- `Ledger`
+  - `ILExpenses`
+  - `ILProduct`
+    - `LInvBase`
+  - `ILSalaryExpenses`
+  - `LDebt`
+
+- `LegalEntity`
+  - `Company`
+  - `Person`
+
+- `LegalStructure`
+  - `ICorporation`
+  - `IPartnership`
+  - `ISoleTrader`
+
+- `NativeOrd`
+  - `BaseString`
+  - `Bool`
+  - `Date`
+    - `Time`
+  - `Enum`
+  - `FlexString`
+  - `INum`
+    - `Num`
+      - `Dec`
+      - `Duration`
+      - `Int`
+      - `Money`
+      - `Percent`
+      - `Qty`
+    - `UNum`
+      - `UDec`
+      - `UDuration`
+      - `UInt`
+      - `UMoney`
+      - `UPercent`
+      - `UQty`
+  - `Ord`
+
+- `OTPostdelivery`
+  - `OTDueIn`
+  - `OTNextMonth`
+
+- `Order`
+  - `PurchaseOrder`
+  - `SalesOrder`
+
+- `OrderDlv`
+  - `IPurchaseDelivery`
+    - `DropShipDelivery`
+    - `PurchaseDelivery`
+  - `ISalesDelivery`
+    - `SalesDelivery`
+
+- `OurLegalEntity`
+  - `OurCompany`
+  - `OurPerson`
+
+- `Payment`
+  - `IncomingPayment`
+  - `OutgoingPayment`
+
+- `PaymentMethod`
+  - `PMBankAccount`
+
+- `Rounding`
+  - `Ceiling`
+  - `Floor`
+  - `Round`
+
+- `ScreenshotTake`
+  - `ScreenshotExternal`
+  - `ScreenshotFlow2b`
+
+- `TrademePrice`
+  - `FixedPrice`
+  - `Margin`
+  - `PercentOfCost`
+  - `PercentOfSalesPrice`
+
+- `Unit`
+  - `PercentUnit`
+  - `Slot`
+  - `UuidUnit`
+
+- `XeroBaseResponse`
+  - `XeroAccountsResponse`
+  - `XeroBankTransactionsResponse`
+  - `XeroBankTransfersResponse`
+  - `XeroContactsResponse`
+  - `XeroCreditNotesResponse`
+  - `XeroInvoicesResponse`
+  - `XeroItemsResponse`
+  - `XeroOrganisationsResponse`
+  - `XeroPaymentsResponse`
+
+- `XeroInvoiceBase`
+  - `XeroCreditNote`
+  - `XeroInvoice`
+

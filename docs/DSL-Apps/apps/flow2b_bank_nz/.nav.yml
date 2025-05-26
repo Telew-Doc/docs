@@ -1,0 +1,18 @@
+nav:
+  - README.md
+  - AnzCreditCardCsvData.md
+  - AnzCsvData.md
+  - AnzLoanCsv.md
+  - AsbCreditCardCsvData.md
+  - AsbCsvData.md
+  - BankData.md
+  - BnzCsvData.md
+  - BnzForeignCsvData.md
+  - EftposCsvData.md
+  - EftposNZCardAccount.md
+  - EftposNZDailyMailImporter.md
+  - EftposPdfCsvData.md
+  - KiwibankCsvFullData.md
+  - KiwibankCsvShortData.md
+  - PaymarkCsvData.md
+  - ReconEftposNZTransfer.md
